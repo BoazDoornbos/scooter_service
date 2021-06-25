@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+.nav nav {
+  padding-top: 3.5%;
+  list-style-type: none;
+  background-color: #88d4df;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-bottom: 3.5%;
+}
+.nav ul {
+  align-items: center;
+}
+.nav li {
+  padding: 12px;
+  display: inline;
+  margin: 4%;
+}
+.button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #38f5c7;
+  border-radius: 24px;
+  outline: none;
+  margin-left: 7%;
+}
+.button:link {
+  text-decoration: none;
+  color: black;
+}
+.button:visited {
+  color: black;
+  text-decoration: none;
+}
+.af {
+  margin-top: 18%;
+  margin-left: 46%;
+}
+.sub {
+  margin-left: 63%;
+  padding-top: 2%;
+}
+.header {
+  margin-top: 4%;
+}
+.header h1 {
+  font-size: 170%;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+}
+hr {
+  size: 6%;
+  width: 65%;
+  margin: auto;
+  margin-top: 2%;
+}
+.main {
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+}
+.main ul {
+  list-style-type: none;
+}
+.main li {
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
+  width: 220px;
+  height: 360px;
+  border-radius: 12%;
+  background: lightgray;
+  margin-right: 6%;
+  margin-left: 3%;
+  margin-top: 3%;
+  padding-top: 3.5%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.container h2 {
+  width: 120px;
+  margin: auto;
+  font-size: 18px;
+  display: flex;
+}
+.af1 {
+  float: right;
+  height: 390px;
+}
+.af1 h2 {
+  display: inline;
+  width: 200px;
+}
+.home {
+  width: 420px;
+  margin-left: 0%;
+}
+.info {
+  width: 230px;
+  height: 330px;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.form p {
+  width: 30px;
+  margin-top: 6%;
+}
+.form label {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.over {
+  margin: auto;
+  display: flex;
+  margin-top: 3%;
+  width: 320px;
+}
+.over p {
+  margin: 3%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+  height: 10%;
+}
+.foom {
+  float: left;
+  font-size: 13px;
+  margin-top: 1%;
+  margin-left: 8%;
+}
+.foma {
+  margin-top: 1%;
+  font-size: 14px;
+  float: right;
+  margin-right: 8%;
+}
+#scooter {
+  margin-top: 2%;
+  margin-left: 16%;
+  width: 65%;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .nav ul {
+    margin-left: 14%;
+  }
+
+  #scooter {
+    width: 45%;
+    margin-left: 42%;
+  }
+  .home {
+    margin-top: 1%;
+    height: 260px;
+    margin-left: 16%;
+  }
+  .af {
+    margin-top: 8%;
+    margin-left: 55%;
+  }
+  .info {
+    margin-top: 3%;
+    float: left;
+    margin-left: 16%;
+    padding-top: 1.5%;
+    height: 230px;
+
+    width: 320px;
+  }
+  .af1 {
+    margin-top: 2%;
+    padding-top: 1.2%;
+    width: 360px;
+    height: 280px;
+    float: right;
+  }
+  .sub {
+    margin-top: 4%;
+    /* 
+    margin-left: 63%;
+  padding-top: 2%; */
+  }
+  .bio {
+    width: 120px;
+    float: right;
+    margin-right: 12%;
+  }
+  .form p {
+    padding-top: 2%;
+    width: 360px;
+  }
+  .form label {
+    margin-top: 1%;
+    float: left;
+  }
+  .pd {
+    padding-right: 10%;
+  }
+  .over {
+    padding-top: 1%;
+    width: 560px;
+    height: 260px;
+  }
+  .footer div {
+    margin-top: 0.5%;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+}
+
+/* 
+// Smartphones (portrait)
+minimale breedte : 320px;
+
+// Tablets (portrait)
+minimale breedte : 768px
+
+// Desktop 
+minimale breedte : 1024px */
